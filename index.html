@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <header id="header">
+            <div id="headerLogo">
+                <img src="images/header_logo.png" alt="헤더로고이미지" width="200">
+            </div> <!-- div#headerLogo -->
+
+            <nav id="gnb">
+                <ul id="mainMenu">
+                    <li class="mainLi">
+                        <a href="#">축제소개</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">Festival소개</a></li>
+                            <li class="subLi"><a href="#">행사장 안내</a></li>
+                            <li class="subLi"><a href="#">조직위원회</a></li>
+                            <li class="subLi"><a href="#">&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">예약안내</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">예약하기</a></li>
+                            <li class="subLi"><a href="#">예약확인/취소</a></li>
+                            <li class="subLi"><a href="#">단체예약문의</a></li>
+                            <li class="subLi"><a href="#">&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">아티스트</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">고릴라즈</a></li>
+                            <li class="subLi"><a href="#">메이저 레이저</a></li>
+                            <li class="subLi"><a href="#">아우스게인</a></li>
+                            <li class="subLi"><a href="#">타임로드</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">커뮤니티</a>
+                        <ul class="subMenu">
+                            <li class="subLi"><a href="#">공지사항</a></li>
+                            <li class="subLi"><a href="#">사진갤러리</a></li>
+                            <li class="subLi"><a href="#">영상갤러리</a></li>
+                            <li class="subLi"><a href="#">&nbsp;</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav> <!-- nav#gnb -->
+        </header> <!-- header#header -->
+
+        <div id="Area">
+            <div id="slide">
+                <div id="shuttleFrame">
+                    <a href="#">
+                        <img src="images/slide_01.jpg" alt="슬라이드쇼 이미지1" width="780">
+                        <span>개막식 11월 17일 7:00</span>
+                    </a>
+                    <a href="#">
+                        <img src="images/slide_02.jpg" alt="슬라이드쇼 이미지2" width="780">
+                        <span>Rock을 친구랑 연인이랑!</span>
+                    </a>
+                    <a href="#">
+                        <img src="images/slide_03.png" alt="슬라이드쇼 이미지3" width="780">
+                        <span>Festival 폐막식 경품 받으세요!</span>
+                    </a>
+                </div>
+            </div> <!-- div#slide -->
+
+            <div id="contents">
+                <div id="noticeArea" class="singleTab">
+                    <button type="button" id="noticeBtn">공지사항</button>
+                    <div id="noticeTabContent" class="tabContent">
+                        <span class="subject tabPoint">남도 여수 valley rock Festival</span>
+                        <span class="regDate tabPoint">2019.05.10</span>
+                        <span class="subject">Valley rock Festival입장권안내</span>
+                        <span class="regDate">2019.05.10</span>
+                        <span class="subject">[이벤트발표] 당첨된다면!</span>
+                        <span class="regDate">2019.04.12</span>
+                    </div>
+                </div>
+                <div id="galleryArea" class="singleTab">
+                    <button type="button" id="galleryBtn">갤러리</button>
+                    <div id="galleryTabContent" class="tabContent">
+                        <a href="#"><img src="images/gallery_01.jpg" alt="갤러리이미지1" width="70" height="100"></a>
+                        <a href="#"><img src="images/gallery_02.jpg" alt="갤러리이미지2" width="70" height="100"></a>
+                        <a href="#"><img src="images/gallery_03.jpg" alt="갤러리이미지3" width="70" height="100"></a>
+                    </div>
+                </div>
+                <div id="shortCutArea">
+                    <img src="images/shortcut.png" alt="바로가기이미지" width="200" height="120">
+                </div>
+            </div> <!-- div#contents -->
+
+            <footer id="footer">
+                <div id="footerLogo">
+                    <img src="images/footer_logo.png" alt="푸터로고">
+                </div>
+                <div id="copyright">
+                    COPYRIGHT(c) Infra Corporation. ALL RIGHTS RESERVED.
+                </div>
+                <div id="familySite">
+                    <select>
+                       <option>Family Site</option>
+                        <option>평창락페</option>
+                        <option>여수세계페스티벌</option>
+                        <option>DWRF</option>
+                    </select>
+                </div>
+            </footer> <!-- footer#footer -->
+        </div> <!-- div#Area -->
+    </div> <!-- div#wrap -->
+
+    <div id="layerPopup">
+        <div id="layerBG">
+            <h1>[Valley Rock Festival] 세계적인 축제에 모두 참여하세요</h1>
+
+            <p>
+               1. 참가자격 : 누구나 참여 가능. 1인 또는 그룹
+                <br>
+                2. 참가신청: 2019. 6. 3(월) ~ 6. 7(금) 18:00까지 이메일접수
+                <br>
+                3. 상품권 : 1등 - 한국 여행 티켓 / 2등 - 일본 여행티켓(호텔,항공권 4인)
+            </p>
+            <div id="layerBtn">
+                <button id="closeBtn" type="button">
+                    닫기
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body></html>
